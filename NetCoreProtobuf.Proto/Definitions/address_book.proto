@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package netcoreprotobuf.proto.definitions;
+
+import "definitions/person.proto";
+
+option csharp_namespace = "NetCoreProtobuf.Proto.Generated";
+
+message AddressBook {
+  repeated Person people = 1;
+}

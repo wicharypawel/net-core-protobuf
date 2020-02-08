@@ -1,0 +1,9 @@
+{
+    "protoc": {
+        "compile_on_save": true,
+        "options": [
+            "--proto_path=NetCoreProtobuf.Proto",
+            "--csharp_out=NetCoreProtobuf.Proto/Generated"
+        ]
+    }
+}
